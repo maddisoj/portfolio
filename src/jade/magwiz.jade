@@ -1,0 +1,11 @@
+doctype html
+html(lang="en")
+    include ../templates/head.jade
+
+    body
+        div(class="wrap")
+            include ../templates/menu.jade
+
+            main.content
+                article.post
+                    include:markdown ../markdown/magwiz.md

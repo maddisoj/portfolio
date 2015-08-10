@@ -21,6 +21,16 @@ a, a:visited {
     }
 }
 
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+hr {
+    border-bottom: 1px solid #EEE;
+    margin: 1rem 0;
+}
+
 .wrap {
     margin: 1em auto;
     max-width: 1000px;
@@ -46,10 +56,11 @@ a, a:visited {
 
     h1 {
         font-size: 2rem;
+        margin-bottom: 1rem;
     }
 
     ul {
-        margin-top: 1rem;
+        margin: 0;
 
         li {
             a > .octicon {
@@ -59,7 +70,6 @@ a, a:visited {
     }
 
     ul ul {
-        margin-top: 0;
         margin-left: 2rem;
     }
 }
@@ -72,6 +82,7 @@ a, a:visited {
         h1 {
             font-size: 3.5rem;
             line-height: 1.2em;
+            margin-bottom: 1em;
         }
 
         img {
@@ -92,4 +103,22 @@ a, a:visited {
 .copyright {
     color: #BBC7CC;
     text-align: center;
+}
+
+.gallery {
+    float: right;
+    margin-bottom: 1em;
+    width: 80%;
+
+    &-counter-wrapper {
+        text-align: center;
+    }
+
+    &-next, &-prev {
+        margin: 0 0.5em;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
 }
