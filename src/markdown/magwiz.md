@@ -3,19 +3,21 @@
 As part of my degree I did a year in industry. My placement was with a company
 called [MasterMagnets][], a small company based in Redditch who primarily
 manufacture and sell industrial separation magnets. These are either
-electromagnetic or permanent magnets and can be up to 5 meters in width and
-length. [MasterMagnets][] used a program that would help them decide what
-magnet would be ideal for a customer, or how they could adjust an offered magnet
-to lower the price and thus get the competitive edge over a competitor.
+electromagnetic or permanent magnets and can several meters in size.  To help
+determine the best magnet from their range [MasterMagnets][] used a program that
+would help them decide what magnet would be ideal for a customer, or how they
+could adjust an offered magnet to lower the price and thus get the competitive
+edge.
 
 This program was written in [QBasic][] by a mechanical engineer in the late 80s.
-The biggest issue this presented was the compatibility of the software. It would
-not run natively on the then current version of Windows (Windows 7) and had to
-be ran through an emulator. The program would then frequently crash, due to it's
-age did not have a modern user interface or mouse interaction and things such as
-printing had to be done by taking a screenshot and printing that. To reliably
-use the software there was a lone Windows 98 machine in the corner of the
-office. My job was to remake this software in Java.
+The biggest issue, and the reason the software needed to be remade, was the
+compatibility of the software. It would not run natively on the then current
+version of Windows (Windows 7) and had to be ran through an emulator. The
+program would then frequently crash, due to it's age did not have a modern user
+interface or mouse interaction and things such as printing had to be done by
+taking a screenshot and printing the resulting image. To reliably use the
+software there was a lone Windows 98 machine in the corner of the office. My job
+was to remake this software in Java.
 
 ## The Original Code
 
@@ -40,17 +42,15 @@ the magnets. To top it all off something not uncommon in BASIC code is the GOTO
 statement, this alone is something frowned upon in modern code due to it leading
 to code that's hard to follow. QBasic took the GOTO statement one step further,
 it allowed you to omit the statement just declaring a line number. So mixed into
-all of the literals would be a disguised GOTO statement... I still have
-nightmares.
+all of the literals would be a disguised GOTO statement.
 
 My entry point into deducing the meaning of some variables was looking at the
-code which took user values, I knew what the number I was putting in was so
-I could then pause the execution and see which variable contained the value
-I just entered. This gave me a base set of variables to work from. Given this
-base set I could then extract a block of code into it's own script and refactor
-it with meaningful variable names. This allowed me to then deduce the meaning of
-variables whose value was the composite of the base set and so on. There are
-still variables that I could not deduce the meaning of and haunt me to this day.
+code which took user values, I could pause the execution and see which variable
+contained the value I just entered. This gave me a base set of variables to work
+from. Given this base set I could then extract a block of code into it's own
+script and refactor it with meaningful variable names. This allowed me to then
+deduce the meaning of variables whose value was the composite of the base set
+and so on.
 
 This gave me a huge appreciation for documentation, good coding style and modern
 compilers and debuggers.
@@ -59,8 +59,7 @@ compilers and debuggers.
 
 I was the sole developer on MagWiz with a consultant visiting fortnightly to
 guide me in managing the project. I had the responsibility of establishing
-a development environment, communicating with the users to establish their
-requirements and keeping the project on track.
+a development environment and managing and developing the project.
 
 When I arrived I was given a fresh machine on which I installed ArchLinux.
 I made a report outlining the importance of VCS and an off site repository so
@@ -70,16 +69,18 @@ automation and dependency management. I discovered [Gradle][] and soon made
 heavy use of it.
 
 The consultant and I setup an agile environment, which was perfect as I shared
-an office with the users who were using the software everyday. As they thought
+an office with the people who were using the software everyday. As they thought
 of something they would like we could make a story card and put it in the
 backlog. I could also ask for their clarification on a story I was working on.
 
-## Features
+## Success
 
 The overall progress of the project was very good. I had the most important
-functionalities working in the Java version in a few months. This allowed use to
+functionalities working in the Java version in a few months. This allowed me to
 add further features to MagWiz, such as a way to automatically calculate the
-price of any magnet.
+price of any magnet and ways to design new magnets. MasterMagnets were happy
+with the progress and I am proud to say kept me on after my original placement
+contract was completed.
 
 [MasterMagnets]: www.mastermagnets.com
 [QBasic]: https://en.wikipedia.org/wiki/QBasic

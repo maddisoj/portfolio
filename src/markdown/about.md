@@ -2,15 +2,14 @@
 
 My name is James Maddison. A recent graduate from [Aston University][]. I was
 first introduced to programming as a teenager through a game called
-[Blockland][]. A virtual Lego world moddable through a C-style language known
-as [TorqueScript][]. I started tinkering with C++ and OpenGL and exploring other
-areas such as the various web languages. I went on to enroll in a Bachelors of
-Science in Computer Science at [Aston University][]. The course language was
-Java but I also picked up a knowledge of other tools and languages such as
-MatLab, Python, Latex and Lisp. My working environment became predominately
-Linux and I developed a love for Vim.
+[Blockland][]. A virtual Lego world moddable through a C-style language known as
+[TorqueScript][]. I started tinkering with C++ and OpenGL and exploring other
+areas such as the web. I went on to enroll in a Bachelors of Science in Computer
+Science at [Aston University][]. The course language was Java but I also picked
+up a knowledge of other tools and languages such as MatLab, Python, LaTeX and
+Lisp. I am a big lover of Linux and Vim.
 
-During my degree I worked for a just over a year on placement at
+During my degree I worked for just over a year on placement at
 [MasterMagnets][], a company who primarily manufacture and sell industrial
 separation magnets. I was the sole developer with the responsibility of remaking
 a piece of legacy software written in [QBasic][]. The company was largely
